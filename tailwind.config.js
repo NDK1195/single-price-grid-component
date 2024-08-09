@@ -9,6 +9,10 @@ module.exports = {
         "light-gray": "hsl(204, 43%, 93%)",
         "grayish-blue": "hsl(218, 22%, 67%)",
       },
+      boxShadow: {
+        card: "0px 15px 30px 0px rgba(0, 81, 171, 0.15)",
+        button: "0px 10px 10px 0px rgba(0, 0, 0, 0.10)",
+      },
     },
   },
   plugins: [],

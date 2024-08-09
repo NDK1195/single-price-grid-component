@@ -1,38 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./src/output.css">
-  <title>Frontend Mentor | Single Price Grid Component</title>
-</head>
-<body>
-  Join our community
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
+  <body class="bg-light-gray">
+    <main class="flex min-h-screen items-center justify-center">
+      <div
+        class="mx-8 my-16 grid min-w-[311px] max-w-[635px] grid-cols-1 shadow-card lg:m-0 lg:grid-cols-2"
+      >
+        <div
+          class="rounded-t-[5px] bg-white px-6 pb-8 pt-7 lg:col-span-2 lg:rounded-lg lg:p-10"
+        >
+          <h1
+            class="mb-6 text-xl font-bold leading-none tracking-[-0.25px] text-cyan lg:text-2xl lg:tracking-[-0.3px]"
+          >
+            Join our community
+          </h1>
+          <h2
+            class="mb-4 text-[15px] font-bold leading-5 tracking-[-0.187px] text-bright-yellow lg:mb-3 lg:text-lg lg:tracking-[-0.225px]"
+          >
+            30-day, hassle-free money back guarantee
+          </h2>
+          <p
+            class="text-sm leading-[26px] tracking-[-0.175px] text-grayish-blue lg:text-base lg:tracking-[-0.2px]"
+          >
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+        <!-- box -->
+        <div class="bg-cyan p-6 text-white lg:rounded-bl-lg lg:p-10">
+          <h2
+            class="mb-[18px] text-lg font-bold leading-none tracking-[-0.225px]"
+          >
+            Monthly Subscription
+          </h2>
+          <div class="mb-3 flex items-center gap-3 lg:mb-2">
+            <p class="text-[32px] font-bold leading-none tracking-[-0.4px]">
+              &dollar;29
+            </p>
+            <span class="leading-[26px] tracking-[-0.2px] opacity-50"
+              >per month</span
+            >
+          </div>
 
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-</body>
+          <p class="mb-7 leading-[26px] tracking-[-0.2px]">
+            Full access for less than &dollar;1 a day
+          </p>
+          <button
+            class="tracking-[-0.2px]shadow-button w-full rounded-[5px] bg-bright-yellow py-4 font-bold leading-none transition-opacity hover:bg-opacity-90"
+          >
+            Sign Up
+          </button>
+        </div>
+        <!-- box -->
+        <div class="bg-[#4abfbc] p-6 text-white lg:rounded-br-lg lg:p-10">
+          <h2 class="mb-5 text-lg font-bold leading-none tracking-[-0.225px]">
+            Why Us
+          </h2>
+          <div
+            class="flex flex-col gap-[2px] text-sm leading-5 tracking-[-0.175px] opacity-75"
+          >
+            <p>Tutorials by industry experts</p>
+            <p>Peer &amp; expert code review</p>
+            <p>Coding exercises</p>
+            <p>Access to our GitHub repos</p>
+            <p>Community forum</p>
+            <p>Flashcard decks</p>
+            <p>New videos every week</p>
+          </div>
+        </div>
+        <!-- box -->
+      </div>
+    </main>
+  </body>
 </html>
