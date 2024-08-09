@@ -8,8 +8,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/NDK1195/four-card-feature-section)
-- Live Site URL: [Live site URL here](https://ndk1195.github.io/four-card-feature-section/)
+- Solution URL: [Solution URL here](https://github.com/NDK1195/single-price-grid-component)
+- Live Site URL: [Live site URL here](https://ndk1195.github.io/single-price-grid-component/)
 
 ### Built with
 
